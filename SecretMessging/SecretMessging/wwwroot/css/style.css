@@ -1,0 +1,109 @@
+﻿body {
+    margin: 0;
+    background-color: #fcf5f5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.MainContaner {
+    width: 90%;
+    margin: 2% auto auto auto;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    margin: 10px auto -3px auto;
+}
+
+.messagecontent {
+    width: 100%;
+    height: 45vmin;
+    border-color: #fecace;
+    background-color: #fcf2fa;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+    .messagecontent textarea {
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+        background-color: transparent;
+        border-width: 0px;
+        resize: none;
+        outline: none;
+    }
+
+button {
+    width: 76px;
+    height: 27px;
+    border-width: 0px;
+    background-color: #ffbccb;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 4px;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    button:hover {
+        background-color: #f7acbd;
+    }
+
+    button:active {
+        background-color: #fb8fcb;
+    }
+
+#lockimg {
+    width: 56px;
+    height: 75px;
+}
+
+#eyedrop {
+    width: 11px;
+    height: 26px;
+}
+
+#eyedrop2 {
+    width: 20px;
+    height: 33px;
+}
+
+#url {
+    margin-top: 6px;
+    font-size: 22px;
+}
+
+#Key {
+    width: 100%;
+    height: 5vmin;
+    border-color: #fecace;
+    background-color: #fcf2fa;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    outline: none;
+}
+    #Key:active {
+        border-color: #f3939a;
+    }
+#Encypted {
+    margin: auto 10px;
+}
+@media only screen and (min-width: 600px) {
+    .messagecontent, #Key {
+        width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}

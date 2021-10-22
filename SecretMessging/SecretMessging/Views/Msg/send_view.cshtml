@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <script src="~/js/network.js"></script>
+    <script src="~/js/aes.js"></script>
+    <script src="~/js/send.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/css/style.css" rel="stylesheet" />
+    <title>Secret Message</title>
+</head>
+<body>
+    <div class="MainContaner">
+        <img id="lockimg" src="~/icons/lock.png" alt="">
+        <img id="eyedrop" src="~/icons/eye.png" alt="">
+        <img id="eyedrop2" lockimg"" src="icons/eye.png" alt="">
+        <div class="messagecontent">
+            <textarea name="name" rows="8" id="message" cols="80"></textarea>
+        </div>
+       <input placeholder="Encrypt Key" id="Key" />
+        <button type="button" name="button" onclick="Send();">Send</button>
+        <div style="display:flex;flex-direction:row;margin:0px auto 0px auto;"><p>Encrypt message with Password</p><input type="checkbox" id="Encypted" /></div>
+    </div>
+
+    <p id="url"></p>
+
+</body>
+</html>
